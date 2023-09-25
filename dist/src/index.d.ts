@@ -1,2 +1,2 @@
-import { StarRatings } from '../components/StarRatings';
+import StarRatings from '../components/StarRatings';
 export default StarRatings;

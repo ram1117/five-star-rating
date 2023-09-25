@@ -14,5 +14,5 @@ interface StarRatingsProps {
     starStrokeWidth?: number;
     concise?: boolean;
 }
-export declare const StarRatings: ({ rating, containerClassName, containerStyle, starClassName, starStyle, starFillColor, starStrokeColor, starStrokeWidth, concise, }: StarRatingsProps) => React.JSX.Element;
-export {};
+declare const StarRatings: ({ rating, containerClassName, containerStyle, starClassName, starStyle, starFillColor, starStrokeColor, starStrokeWidth, concise, }: StarRatingsProps) => React.JSX.Element;
+export default StarRatings;
