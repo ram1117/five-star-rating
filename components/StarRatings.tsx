@@ -15,7 +15,7 @@ interface StarRatingsProps {
   concise?: boolean;
 }
 
-const StarRatings = ({
+export const StarRatings = ({
   rating,
   containerClassName = '',
   containerStyle = {height:24,width:24},
@@ -66,4 +66,3 @@ const StarRatings = ({
   );
 };
 
-export default StarRatings;

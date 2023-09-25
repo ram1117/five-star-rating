@@ -13,5 +13,5 @@ interface StarRatingsProps {
     starStrokeWidth?: number;
     concise?: boolean;
 }
-declare const StarRatings: ({ rating, containerClassName, containerStyle, starClassName, starStyle, starFillColor, starStrokeColor, starStrokeWidth, concise, }: StarRatingsProps) => any;
-export default StarRatings;
+export declare const StarRatings: ({ rating, containerClassName, containerStyle, starClassName, starStyle, starFillColor, starStrokeColor, starStrokeWidth, concise, }: StarRatingsProps) => any;
+export {};
