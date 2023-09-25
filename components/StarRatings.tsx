@@ -18,7 +18,7 @@ interface StarRatingsProps {
 const StarRatings = ({
   rating,
   containerClassName = '',
-  containerStyle = {height:24,width:24},
+  containerStyle = {},
   starClassName = '',
   starStyle = {},
   starFillColor = 'gold',
