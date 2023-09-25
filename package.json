@@ -1,11 +1,17 @@
 {
-  "name": "five-star-rating",
-  "version": "1.0.0",
+  "name": "react-five-star-rating",
+  "version": "1.1.5",
   "type": "module",
   "source": "src/index.tsx",
-  "main": "dist/index.js",
-  "module": "dist/index.module.js",
-  "unpkg": "dist/index.umd.js",
+  "exports": {
+    "types": "./dist/index.d.tsx",
+    "require": "./dist/index/cjs",
+    "default": "./dist/index.modern.js"
+  },
+  "types": "dist/index.d.tsx",
+  "main": "./dist/index.js",
+  "module": "./dist/index.module.js",
+  "unpkg": "./dist/index.umd.js",
   "scripts": {
     "build": "microbundle",
     "dev": "microbundle watch"
@@ -15,13 +21,18 @@
     "react-dom": ">=15.0.1"
   },
   "devDependencies": {
+    "@types/jest": "^29.5.5",
+    "@types/node": "^20.6.5",
+    "@types/react": "^18.2.22",
+    "@types/react-dom": "^18.2.7",
     "microbundle": "^0.15.1",
     "react": ">=15.0.1",
-    "react-dom": ">=15.0.1"
+    "react-dom": ">=15.0.1",
+    "typescript": "^5.2.2"
   },
-  
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ram1117/five-star-rating.git"
-  }
+    "url": "git+https://github.com/ram1117/react-five-star-rating.git"
+  },
+  "keywords": ["React","star rating","ratings"]
 }

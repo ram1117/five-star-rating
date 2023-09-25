@@ -3,8 +3,6 @@ import Star from './Star';
 
 interface StarRatingsProps {
   rating: number;
-  imageSize?: number;
-  responsiveSizes?: { [key: string]: number };
   containerClassName?: string;
   containerStyle?: {};
   starClassName?: string;
@@ -18,7 +16,7 @@ interface StarRatingsProps {
 const StarRatings = ({
   rating,
   containerClassName = '',
-  containerStyle = {height:24,width:24},
+  containerStyle = {},
   starClassName = '',
   starStyle = {},
   starFillColor = 'gold',
@@ -66,4 +64,4 @@ const StarRatings = ({
   );
 };
 
-export default StarRatings;
+export default StarRatings

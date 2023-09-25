@@ -1,3 +1,4 @@
+import React from 'react';
 interface StarRatingsProps {
     rating: number;
     imageSize?: number;
@@ -13,5 +14,5 @@ interface StarRatingsProps {
     starStrokeWidth?: number;
     concise?: boolean;
 }
-declare const StarRatings: ({ rating, containerClassName, containerStyle, starClassName, starStyle, starFillColor, starStrokeColor, starStrokeWidth, concise, }: StarRatingsProps) => any;
+declare const StarRatings: ({ rating, containerClassName, containerStyle, starClassName, starStyle, starFillColor, starStrokeColor, starStrokeWidth, concise, }: StarRatingsProps) => React.JSX.Element;
 export default StarRatings;
