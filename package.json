@@ -1,5 +1,5 @@
 {
-  "name": "five-star-rating",
+  "name": "react-five-star-rating",
   "version": "1.0.0",
   "type": "module",
   "source": "src/index.tsx",
@@ -22,6 +22,6 @@
   
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ram1117/five-star-rating.git"
+    "url": "git+https://github.com/ram1117/react-five-star-rating.git"
   }
 }
