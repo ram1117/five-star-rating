@@ -32,7 +32,7 @@ import StarRatings from 'react-five-star-rating';
 
 4. Star rating with default options
 
-![Image with default props]('./readme-resources/image2.png')
+![Image with default props](/readme-resources/image2.png)
 
 5. Optional props
 
@@ -40,11 +40,11 @@ import StarRatings from 'react-five-star-rating';
   * starClassName - css/Tailwind classname that applies to the star SVG
   * starStyle - style object for the star SVG
   * starFillColor - Fill color for the stars. Default color is gold <br>
-  ![Image with default props]('./readme-resources/image1.png')<br>
+  ![Image with default props](/readme-resources/image1.png)<br>
   * starStrokeColor - Stroke color for the stars. Default stroke color is black
   * starStrokeWidth - Stroke width for each star in pixels. Default is 0.5px
   * Concise - When true, shows only necessary number of stars required to display the rating (3 stars for a rating of 2.80). When false, five stars will be returned <br>
-  ![Image with default props]('./readme-resources/image3.png')<br>
+  ![Image with default props](/readme-resources/image3.png)<br>
 
 
 ## Authors
@@ -60,4 +60,4 @@ Ram Kumar Karuppusamy <br>
 
 ## License
 
-This project is licensed under the [NAME HERE] License - see the LICENSE.md file for details
+This project is licensed under the [MIT](/LICENSE) License
