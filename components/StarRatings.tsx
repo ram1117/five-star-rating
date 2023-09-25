@@ -3,8 +3,6 @@ import Star from './Star';
 
 interface StarRatingsProps {
   rating: number;
-  imageSize?: number;
-  responsiveSizes?: { [key: string]: number };
   containerClassName?: string;
   containerStyle?: {};
   starClassName?: string;
