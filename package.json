@@ -1,6 +1,6 @@
 {
   "name": "react-five-star-rating",
-  "version": "1.1.4",
+  "version": "1.1.5",
   "type": "module",
   "source": "src/index.tsx",
   "exports": {
@@ -33,5 +33,6 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ram1117/react-five-star-rating.git"
-  }
+  },
+  "keywords": ["React","star rating","ratings"]
 }
