@@ -6,7 +6,7 @@
     "allowSyntheticDefaultImports":true,
     "baseUrl": ".",
     "paths": {
-      "microbundle-test": ["src/index.ts"]
+      "react-five-star-rating": ["src/index.ts"]
     }
   }
 }
