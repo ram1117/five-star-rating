@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "jsx": "react",
+    "noEmit": true,
+    "allowJs": true,
+    "allowSyntheticDefaultImports":true,
+    "baseUrl": ".",
+    "paths": {
+      "microbundle-test": ["src/index.ts"]
+    }
+  }
+}

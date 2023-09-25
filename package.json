@@ -1,14 +1,14 @@
 {
   "name": "react-five-star-rating",
-  "version": "1.0.7",
+  "version": "1.1.0",
   "type": "module",
-  "source": "src/index.tsx",
+  "source": "src/index.ts",
   "exports": {
-    "types":"./dist/index.d.ts",
+    "types": "./dist/index.d.ts",
     "require": "./dist/index/cjs",
     "default": "./dist/index.modern.js"
   },
-  "types": "dist/index.d.ts"   ,
+  "types": "dist/index.d.ts",
   "main": "./dist/index.js",
   "module": "./dist/index.module.js",
   "unpkg": "./dist/index.umd.js",
@@ -21,9 +21,14 @@
     "react-dom": ">=15.0.1"
   },
   "devDependencies": {
+    "@types/jest": "^29.5.5",
+    "@types/node": "^20.6.5",
+    "@types/react": "^18.2.22",
+    "@types/react-dom": "^18.2.7",
     "microbundle": "^0.15.1",
     "react": ">=15.0.1",
-    "react-dom": ">=15.0.1"
+    "react-dom": ">=15.0.1",
+    "typescript": "^5.2.2"
   },
   "repository": {
     "type": "git",
