@@ -8,7 +8,7 @@
     "baseUrl": ".",
     "paths": {
       "react-five-star-rating": [
-        "src/index.ts"
+        "src/index.tsx"
       ]
     }
   }
