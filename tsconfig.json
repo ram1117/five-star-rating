@@ -3,10 +3,13 @@
     "jsx": "react",
     "noEmit": true,
     "allowJs": true,
-    "allowSyntheticDefaultImports":true,
+    "allowSyntheticDefaultImports": true,
+    "noImplicitAny": false,
     "baseUrl": ".",
     "paths": {
-      "react-five-star-rating": ["src/index.ts"]
+      "react-five-star-rating": [
+        "src/index.ts"
+      ]
     }
   }
 }
